@@ -8,7 +8,7 @@ public class FizzBuzz {
 
             for (int i = 0; i < array.length && number <= end; i++) {
                 if (number % 15 == 0) {
-                    array[i] = "FizzBuss";
+                    array[i] = "FizzBuzz";
                 } else if (number % 3 == 0) {
                     array[i] = "Fizz";
                 } else if (number % 5 == 0) {
